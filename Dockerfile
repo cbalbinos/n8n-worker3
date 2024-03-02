@@ -1,10 +1,6 @@
 # Use the n8n image as the base
 FROM docker.n8n.io/n8nio/n8n
 
-RUN mkdir ~/.n8n/nodes
-RUN cd ~/.n8n/nodes
-RUN npm update n8n-nodes-chatwoot n8n-nodes-text-manipulation
-
 ARG PGPASSWORD
 ARG PGHOST
 ARG PGPORT
