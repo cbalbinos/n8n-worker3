@@ -1,5 +1,5 @@
 # Use the n8n image as the base
-FROM n8nio/n8n:1.51.2
+FROM n8nio/n8n:1.54.0
 
 ARG PGPASSWORD
 ARG PGHOST
