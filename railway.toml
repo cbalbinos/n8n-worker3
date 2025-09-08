@@ -1,3 +1,4 @@
 [deploy]
 startCommand = "n8n worker"
-
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 8
