@@ -1,5 +1,5 @@
 # Base n8n
-FROM n8nio/n8n:1.109.2
+FROM n8nio/n8n:1.110.1
 
 # Variáveis do Postgres
 ARG PGPASSWORD PGHOST PGPORT PGDATABASE PGUSER
