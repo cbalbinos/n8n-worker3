@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.110.1
+FROM n8nio/n8n:1.113.3
 
 # Configuração do Worker
 ENV EXECUTIONS_MODE=queue
